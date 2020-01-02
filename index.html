@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Mudul 5.15</title>
+</head>
+
+<body>
+
+  <div class="container main">
+    <h1>Сказка про Курочку Рябовскую</h1>
+    <p></p> 
+    
+    <form id="messages">
+      <div class="form-group">
+        <input type="text" class="form-control" name="var1" placeholder="Кто-то старый" value="" title="Пиши старик" />
+        <input type="text" class="form-control" name="var2" placeholder="Жена кого-то старого" value=""
+          title="Возможно старуха" />
+        <input type="text" class="form-control" name="var3" placeholder="Та которая кудахчет" value=""
+          title="Возможно Курочка ряба" />
+        <input type="text" class="form-control" name="var4" placeholder="С чего началась курица" value=""
+          title="Возможно ятцо :)" />
+        <input type="text" class="form-control" name="var5" placeholder="Кем был Джерри" value=""
+          title="Возможно мыш" />
+        <input type="text" class="form-control" name="var6" placeholder="Сзади болтаеться" value=""
+          title="Возможно хвост" />
+        <input type="text" class="form-control" name="speach" placeholder="Что бы вы сказали если бы вам снесли яйцо"
+          value="" title="Возможно что-то утешительное" />
+      </div>
+    </form>
+    <div class="row button">
+      <!-- создаем две кнопки для работы с текстом, вторую пока прячем -->
+      <a id="button-fetch" class="btn btn-primary first-button">Показать сказку</a> 
+      <a id="button-fetch" class="btn btn-primary secondary-button" style="display: none">Сделать замену</a>
+    </div>
+
+    <div class="row">
+      <div class="result"></div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="js/ryaba.js"></script>
+</body>
+</html>
